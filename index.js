@@ -55,7 +55,7 @@ navigator.mediaDevices.getUserMedia(constraints)//getUserMedia() ask permission 
 captureBtnCont.addEventListener("click",(e) => {
     captureBtnCont.classList.add("scale-capture"); //adding animations
 
-    let canvas = document.createElement("canvas"); // canvasAPI search in google for it and its methods.
+    let canvas = document.createElement("canvas"); 
     canvas.width = video.videoWidth;
     canvas.height = video.videoHeight;
     let imageURL = canvas.toDataURL("image/jpeg", 1.0);
