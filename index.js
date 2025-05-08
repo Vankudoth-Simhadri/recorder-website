@@ -49,7 +49,7 @@ navigator.mediaDevices.getUserMedia(constraints)//getUserMedia() ask permission 
     })
 });
 
-//Video is actually captured as chenks, but what these chunks will have?
+//Video is actually captured as chunks, but what these chunks will have?
 //Each chunk will be having a frame, image is actually a frame
   
 captureBtnCont.addEventListener("click",(e) => {
